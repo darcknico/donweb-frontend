@@ -25,6 +25,9 @@ function CartPage() {
     
     return (
         <div className="mt-5">
+            <div className="row my-2">
+                <h4 className="text-center">Mi Carrito</h4>
+            </div>
             <div className="row">
                 <div className="col-12">
                     {

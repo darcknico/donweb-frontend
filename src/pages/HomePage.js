@@ -27,7 +27,10 @@ function HomePage() {
     }, [search,isLoading])
     
     return (
-        <div className="container-fluid mt-5">
+        <div className="mt-5">
+            <div className="row my-2">
+                <h4 className="text-center">Listado</h4>
+            </div>
             <div className="row">
                 <div className="col-12">
                     {

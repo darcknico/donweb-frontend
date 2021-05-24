@@ -22,7 +22,10 @@ function Header(props) {
     const dispatch = useDispatch()
 
     const onClickCart = () => {
-        history.push('/cart')
+        const {pathname} = history.location;
+        if(pathname != '/cart'){
+            history.push('/cart')
+        }
     }
 
     const onClickSearch = () => {
